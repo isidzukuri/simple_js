@@ -1,0 +1,37 @@
+/*============simple slider===============*/
+.simple_slider{}
+
+.simple_slider .simple_slider_item{
+	float: left;
+}
+.simple_slider .simple_slider_wrap{
+	width: 100%;
+	overflow: hidden;
+}
+
+.simple_slider .controll_arrow{
+	position: absolute;
+	top:50%;
+	margin-top: -11px;
+	height: 23px;
+	width: 21px;
+	opacity: 0.7;
+	z-index: 2;
+	cursor: pointer;
+	background: url(/public/img/arrows.png) 0px 0px no-repeat;
+}
+.simple_slider .controll_arrow:hover{
+	opacity: 1;
+}
+
+.simple_slider .right_arrow{
+	right: 0;
+	background-position: -21px 0px;
+}
+.ss_slider_clear{
+	clear:both;
+	width:0;
+	height:0;
+	overflow:hidden;
+}
+/*=======================================*/
